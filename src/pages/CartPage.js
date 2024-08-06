@@ -10,7 +10,7 @@ const CartPage = () => {
   }
 
   return (
-    <div className="p-4">
+    <div className="p-4 my-20">
       <h1 className="text-3xl font-bold mb-4">Your Cart</h1>
       <div className="mb-4">
         {cart.map(item => (

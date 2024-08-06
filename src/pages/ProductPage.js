@@ -14,9 +14,9 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="p-4">
+    <div className="border p-4 w-72 m-auto bg-gray-200 my-40">
       <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-      <img src={product.image} alt={product.name} className="w-full max-w-md" />
+      <img src={product.image} alt={product.name} className="w-full h-48 object-cover mb-4" />
       <p className="text-xl mt-4">${product.price}</p>
       <button onClick={() => addToCart(product)} className="mt-4 bg-blue-500 text-white px-4 py-2">Add to Cart</button>
     </div>

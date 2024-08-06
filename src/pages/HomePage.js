@@ -19,7 +19,7 @@ const HomePage = () => {
   const newProducts = products.slice(0, 3); // Assuming first three products are new
 
   return (
-    <div className="p-4">
+    <div className="p-4 my-20">
          {/* Hero Section */}
         <section className="hero bg-cover bg-center h-96" style={{ backgroundImage: `url(${glasses})` }}>
         <div className="container mx-auto h-full flex items-center justify-center">

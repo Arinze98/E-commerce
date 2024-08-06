@@ -2,12 +2,13 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../contexts/CartContext';
+import { AuthContext } from '../contexts/AuthContext';
 
 const Header = () => {
   const { totalItems } = useContext(CartContext);
 
   return (
-    <header className="bg-gray-800 text-white p-4 fixed w-full top-0 z-10">
+    <header className="bg-gray-800 text-white p-4 fixed w-full top-0 z-10 ">
       <nav>
         <ul className="flex justify-around items-center">
         <Link to="/" className="text-2xl font-bold">E-Commerce</Link>
